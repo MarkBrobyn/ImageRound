@@ -3,17 +3,35 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/mainlayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:background="@android:color/black"
     >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="0dip"
+        android:layout_weight=".7"
+        >
+
     <FrameLayout
-        android:id="@+id/frame1"
+        android:id="@+id/frame4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="10dp"
         >
 
         <ImageView
@@ -36,10 +54,11 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frame2"
+        android:id="@+id/frame5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="10dp"
         >
 
         <ImageView
@@ -62,10 +81,11 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frame3"
+        android:id="@+id/frame6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="10dp"
         >
 
         <ImageView
@@ -84,15 +104,16 @@
             android:layout_gravity="center"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/mask"
-            />
+            android:src="@drawable/mask" />
     </FrameLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Abc"
-        android:id="@+id/mytext"
-    />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        >
+    </LinearLayout>
 </LinearLayout>
