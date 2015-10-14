@@ -30,7 +30,7 @@
         >
 
         <FrameLayout
-            android:id="@+id/frame4"
+            android:id="@+id/frame1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -53,11 +53,11 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/mask" />
+                android:src="@drawable/maskblack" />
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/frame5"
+            android:id="@+id/frame2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -80,11 +80,11 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/mask" />
+                android:src="@drawable/maskwhite" />
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/frame6"
+            android:id="@+id/frame3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -101,13 +101,13 @@
                 />
 
             <ImageView
-                android:id="@+id/mask4"
+                android:id="@+id/mask3"
                 android:layout_width="@dimen/image_round"
                 android:layout_height="@dimen/image_round"
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/mask" />
+                android:src="@drawable/maskred" />
         </FrameLayout>
 
     </LinearLayout>

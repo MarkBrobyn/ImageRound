@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 View mainLayout = findViewById(R.id.mainlayout);
-                mainLayout.setBackgroundColor(0xffff0000);
+                mainLayout.setBackgroundColor(0xffffffff);
                 mytext=(TextView)findViewById(R.id.mytext);
                 mytext.setText("Clicked");
             }
@@ -37,9 +37,9 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 View mainLayout = findViewById(R.id.mainlayout);
-                mainLayout.setBackgroundColor(0xff0000ff);
-                mytext=(TextView)findViewById(R.id.mytext);
-                mytext.setText("Clicked");
+                mainLayout.setBackgroundColor(0xff000000);
+               mytext=(TextView)findViewById(R.id.mytext);
+               mytext.setText("Clicked");
             }
         });
 
@@ -48,7 +48,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 View mainLayout = findViewById(R.id.mainlayout);
-                mainLayout.setBackgroundColor(0xff000000);
+                mainLayout.setBackgroundColor(0xffff0000);
                 mytext=(TextView)findViewById(R.id.mytext);
                 mytext.setText("Clicked");
             }

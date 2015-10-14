@@ -32,7 +32,7 @@
             android:layout_gravity="center"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/mask" />
+            android:src="@drawable/maskwhite" />
     </FrameLayout>
 
     <FrameLayout
@@ -58,7 +58,7 @@
             android:layout_gravity="center"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/mask" />
+            android:src="@drawable/maskblack" />
     </FrameLayout>
 
     <FrameLayout
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/mask"
+            android:src="@drawable/maskred"
             />
     </FrameLayout>
 
