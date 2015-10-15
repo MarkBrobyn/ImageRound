@@ -17,7 +17,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
         final FrameLayout frame1=(FrameLayout) findViewById(R.id.frame1);
         final FrameLayout frame2=(FrameLayout) findViewById(R.id.frame2);
