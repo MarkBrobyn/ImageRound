@@ -7,12 +7,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 //http://code.tutsplus.com/tutorials/android-user-interface-design-frame-layouts--mobile-4877
 public class MainActivity extends ActionBarActivity {
     // http://stackoverflow.com/questions/6010231/android-configuring-click-listener-for-frame-layout
-   TextView mytext;
+    TextView mytext;
+    ImageView myimage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,10 @@ public class MainActivity extends ActionBarActivity {
                 mainLayout.setBackgroundColor(0xffffffff);
                 mytext=(TextView)findViewById(R.id.mytext);
                 mytext.setText("Clicked");
+                myimage=(ImageView)findViewById(R.id.picture4);
+                myimage.setImageResource(R.drawable.picture);
+                myimage=(ImageView)findViewById(R.id.mask4);
+                myimage.setImageResource(R.drawable.maskwhite);
             }
         });
 
@@ -40,6 +46,10 @@ public class MainActivity extends ActionBarActivity {
                 mainLayout.setBackgroundColor(0xff000000);
                mytext=(TextView)findViewById(R.id.mytext);
                mytext.setText("Clicked");
+                myimage=(ImageView)findViewById(R.id.picture4);
+                myimage.setImageResource(R.drawable.picturebig);
+                myimage=(ImageView)findViewById(R.id.mask4);
+                myimage.setImageResource(R.drawable.maskblack);
             }
         });
 
@@ -51,8 +61,15 @@ public class MainActivity extends ActionBarActivity {
                 mainLayout.setBackgroundColor(0xffff0000);
                 mytext=(TextView)findViewById(R.id.mytext);
                 mytext.setText("Clicked");
+                myimage=(ImageView)findViewById(R.id.picture4);
+                myimage.setImageResource(R.drawable.picturesmall);
+                myimage=(ImageView)findViewById(R.id.mask4);
+                myimage.setImageResource(R.drawable.maskred);
+                //myimage.setImageDrawable(getResources().getDrawable(R.drawable.picturesmall, getApplicationContext().getTheme()));
             }
         });
+
+        //myImgView.setImageDrawable(getResources().getDrawable(R.drawable.monkey, getApplicationContext().getTheme()));
     }
 
     @Override
